@@ -9,6 +9,8 @@ body {
 .table-container {
   max-width: 960px;
   margin: 10px;
+  border: 1px solid #000000;
+
 
 }
 
@@ -30,11 +32,12 @@ ul, ol {
 }
 
 .table-block{
-  margin-bottom: 20px;
+
   display: flex;
   align-items: flex-start;
+  border-bottom: 1px solid #000000;
 
-  border: 1px solid #000000;
+
 
 }
 .img{
@@ -44,32 +47,76 @@ ul, ol {
 }
 
 .img img{
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 
 .info{
+
   padding: 15px;
   flex: 1;
   height: 250px;
+
 }
 .table-block-2{
-  padding: 15px;
-  margin-bottom: 20px;
+  margin: 10px;
   display: flex;
   align-items: flex-start;
   gap: 15px;
+  border: 1px solid #000000;
+  max-width: 960px;
 }
 
 .table-block-2 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border: 1px solid #000000;
 }
 
-.img{
-
+.geipel-advantages{
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px;
 
 }
+
+.geipel-advantages h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.image-block{
+  flex: 1 1 200px;
+  text-align: center;
+}
+.image-block img{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border: 1px solid #000000;
+}
+
+.text-block{
+  flex: 2 1 600px;
+}
+
+.text-block h3{
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.text-block p{
+  margin-bottom:15px;
+  line-height: 1.6;
+}
+
+
+
