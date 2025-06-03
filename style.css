@@ -7,11 +7,15 @@ body {
 }
 
 .table-container {
-  max-width: 960px;
+  width: 900px;
   margin: 10px;
   border: 1px solid #000000;
 
+}
 
+.container-1{
+  width: 900px;
+  margin: 10px;
 }
 
 h1 {
@@ -75,37 +79,40 @@ ul, ol {
   border: 1px solid #000000;
 }
 
-.geipel-advantages{
-  margin: 0 auto;
-  max-width: 900px;
-  padding: 30px;
 
-}
 
 .geipel-advantages h2{
   text-align: center;
+  font-size: 24px;
   margin-bottom: 30px;
 }
 
 .content-wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
+  overflow: hidden;
 }
 
+.geipel-advantages{
+   margin: 0 auto;
+   max-width: 900px;
+   padding: 30px;
+
+ }
 .image-block{
-  flex: 1 1 200px;
-  text-align: center;
+  float: left;
+  width: 35%;
+  margin: 0 20px 10px 0;
 }
 .image-block img{
   width: 100%;
-  max-width: 400px;
   height: auto;
+  display: block;
   border: 1px solid #000000;
 }
 
 .text-block{
   flex: 2 1 600px;
+  overflow: hidden;
+
 }
 
 .text-block h3{
@@ -118,5 +125,17 @@ ul, ol {
   line-height: 1.6;
 }
 
+.section-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+
+}
+h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
